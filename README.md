@@ -7,6 +7,19 @@ This repository contains the code for the paper [TLogic: Temporal Logical Rules 
 
 The dependencies required to run the code are specified in [`pyproject.toml`](https://github.com/liu-yushan/TLogic/blob/main/pyproject.toml). Run `poetry install` to install the dependencies from [`poetry.lock`](https://github.com/liu-yushan/TLogic/blob/main/poetry.lock). For more information about Poetry, a tool for dependency management and packaging in Python, see https://python-poetry.org/docs/.
 
+Install poetry: 
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+vim ~/.bashrc
+export PATH="$HOME/.poetry/bin:$PATH"
+source ~/.bashrc
+
+create env and activate:
+cd ./TLogic
+poetry install
+poetry shell
+cd mycode/
+
+
 The commands for running TLogic and recreating the results from the paper can be found in [`run.txt`](https://github.com/liu-yushan/TLogic/blob/main/mycode/run.txt).
 
 [`demo.ipynb`](https://github.com/liu-yushan/TLogic/blob/main/mycode/demo.ipynb) contains a demonstration of the components rule learning and rule application.
