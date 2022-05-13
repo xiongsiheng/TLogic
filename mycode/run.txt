@@ -3,6 +3,8 @@ The names of the rules file (-r) and the candidates file (-c) should be replaced
 The number of processes (-p) can be adapted depending on the number of CPUs, which
 might lead to slightly different results for rule learning.
 
+# change the name of jsons according to the files in output/icews14/
+
 ICEWS14
 python learn.py -d icews14 -l 1 2 3 -n 200 -p 16 -s 12
 python apply.py -d icews14 -r 101221144026_r[1,2,3]_n200_exp_s12_rules.json -l 1 2 3 -w 0 -p 8

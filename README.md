@@ -17,7 +17,7 @@ export PATH="$HOME/.poetry/bin:$PATH"
 
 source ~/.bashrc
 
-</h3> Create env and activate </h3>
+<h3> Create env and activate </h3>
 
 cd ./TLogic
 
