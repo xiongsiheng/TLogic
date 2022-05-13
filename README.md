@@ -7,7 +7,7 @@ This repository contains the code for the paper [TLogic: Temporal Logical Rules 
 
 The dependencies required to run the code are specified in [`pyproject.toml`](https://github.com/liu-yushan/TLogic/blob/main/pyproject.toml). Run `poetry install` to install the dependencies from [`poetry.lock`](https://github.com/liu-yushan/TLogic/blob/main/poetry.lock). For more information about Poetry, a tool for dependency management and packaging in Python, see https://python-poetry.org/docs/.
 
-Install poetry: 
+<h3> Install poetry </h3>
 
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 
@@ -17,7 +17,7 @@ export PATH="$HOME/.poetry/bin:$PATH"
 
 source ~/.bashrc
 
-create env and activate:
+</h3> Create env and activate </h3>
 
 cd ./TLogic
 
